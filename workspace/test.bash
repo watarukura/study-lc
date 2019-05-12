@@ -34,4 +34,7 @@ cat <<EOF > tmp.expected.2-1
 EOF
 try tmp.expected.2-1 lesson2-1
 
+echo 10 > tmp.expected.2-2
+try tmp.expected.2-2 lesson2-2
+
 echo OK
